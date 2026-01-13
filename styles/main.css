@@ -99,13 +99,58 @@ header{
     .navbar-title h1{
         margin: 0;
     }
+    .brand-area-container{
+        width: 90%;
+        padding: 1.5rem;
+    }
     .teams-section-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+        
     }
     .teams-section-img-container{
         display: grid;
+        order: 2;
         grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .teams-section-text-container{
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    body{
+        margin: 0;
+    }
+    .nav-bar-container{
+        width: 90%;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .brand-area-container{
+        width: 90%;
+        padding: 1.5rem;
+    }
+    .teams-section-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        
+    }
+    .teams-section-img-container{
+        display: grid;
+        order: 2;
+        gap: 0;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .teams-section-img-container{
+        width: 90%;
+    }
+    .teams-section-text-container{
+        text-align: center;
     }
 }
