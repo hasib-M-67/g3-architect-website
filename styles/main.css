@@ -80,6 +80,51 @@ header{
 }
 
 
+/* features area related css */
+.features-area-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.features-text-container h1{
+    border-left: 8px solid #FF900E;
+    padding-left: 1rem;
+}
+.features-card-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.features-card{
+    margin-bottom: 2rem;
+}
+.features-img-container img{
+    width: 90%;
+    margin-left: 5rem;
+}
+.badge-area{
+    background-color: #FF900E;
+    padding: 1em;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: -5rem;
+    width: 50%;
+    text-align: center;
+}
+.h1-10yrs{
+    margin: 0;
+    font-size: 3rem;
+    /* width: 1%; */
+}
+.experience-h4{
+    font-size: 1.2rem;
+}
+    
+
+
+
 
 
 
@@ -118,6 +163,31 @@ header{
     .teams-section-text-container{
         text-align: center;
     }
+
+
+    /* features area css */
+    .features-area-main-container{
+        width: 100%;
+        margin-left: 1rem;
+        flex-direction: column;
+    }
+    .features-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 3rem;
+    }
+    .features-img-container{
+        display: flex;
+        justify-content: center;
+    }
+    .features-img-container img{
+        width: 90%;
+
+        margin-left: 0;
+    }
+    .badge-area{
+        display: none;
+    }
 }
 
 
@@ -152,5 +222,30 @@ header{
     }
     .teams-section-text-container{
         text-align: center;
+    }
+
+
+    /* features area css */
+    .features-area-main-container{
+        width: 100%;
+        margin-left: 1rem;
+        flex-direction: column;
+    }
+    .features-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 3rem;
+    }
+    .features-img-container{
+        display: flex;
+        justify-content: center;
+    }
+    .features-img-container img{
+        width: 90%;
+
+        margin-left: 0;
+    }
+    .badge-area{
+        display: none;
     }
 }
