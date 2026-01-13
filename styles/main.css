@@ -1,3 +1,61 @@
+/* shared styles */
 body{
-    background-color: red;
+    margin: 0px;
+}
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    background-color: #FF900E;
+    padding: 1em;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 1.5rem auto;
+}
+.shared-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+.text-light-gray{
+    color: #474747;
+}
+
+
+/* header area css */
+header{
+    /* background-color: #FF900E; */
+}
+/* navbar css */
+.nav-bar-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items li{
+    list-style: none;
+    margin-left: 3rem;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* brand area css */
+.brand-area-container{
+    text-align: center;
+    width: 40%;
+}
+.brand-area-container h1{
+    font-size: 3rem;
+}
+.brand-area-container img{
+    width: 200%;
+}
+.header-img-div{
+    display: flex;
+    justify-content: center;
+}
+.header-img-div img{
+    width: 80%;
+    border-radius: 10px;
 }
